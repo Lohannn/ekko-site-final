@@ -62,7 +62,7 @@ section{
 }
 
 .intro:hover .nome,.intro:hover .subtitulo{
-    text-shadow: 0 0 0.5em #67faff;
+    text-shadow: 0 0 0.3em #67faff;
     color: #00ffff;
 }
 
