@@ -50,11 +50,20 @@ section{
 .nome{
     padding-top: 30px;
     font-size: 60px;
+    transition: 0.5s;
+    cursor: default;
 }
 
 .subtitulo{
     font-style: italic;
     font-size: 50px;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.intro:hover .nome,.intro:hover .subtitulo{
+    text-shadow: 0 0 0.5em #67faff;
+    color: #00ffff;
 }
 
 .foto-ekko {
@@ -68,26 +77,23 @@ section{
     flex-direction: column;
 }
 
-.tituloDaDescricao{
-    transition: 0.5s;
-    cursor: default;
-}
-
 .descricao .ekko, .ekko1, .ekko2{
     display: flex;
     flex-direction: column;
     width: 610px;
 }
 
-.descricao:hover .tituloDaDescricao{
-    text-shadow: 0 0 0.5em #00f7ff;
-    color: #00ffd5;
-}
-
 .tituloDaDescricao{
     padding-bottom: 50px;
     font-size: xx-large;
     font-family: Arial, Helvetica, serif;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.descricao:hover .tituloDaDescricao{
+    text-shadow: 0 0 0.5em #00f7ff;
+    color: #00ffd5;
 }
 
 .seta{
