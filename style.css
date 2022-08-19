@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    
+    height: 140px;
+    background-color: #2e725d;
+    padding: 20px;
+    text-align: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    -webkit-scale: 1.05;
+    scale: 1.05;
+}
+
+main{
+    background-color: #131d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fff;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #cfcfcf;
+}
+
+.nome{
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+.subtitulo{
+    font-style: italic;
+    font-size: 50px;
+}
+
+.foto-ekko {
+    width: 1100px;
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao .ekko, .ekko1, .ekko2{
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+}
+
+.tituloDaDescricao{
+    padding-bottom: 50px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, serif;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.tituloDaDescricao:hover{
+    color: #21b1a7;
+}
+
+.seta{
+    color: #1f9991;
+    font-weight: bolder;
+}
+
+.ekko0{
+    font-size: large;
+    font-family: Arial, Helvetica, serif;
+    padding-bottom: 10px;
+}
+
+.ekko{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, serif;
+    font-style: italic;
+}
+
+.ekko1{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, serif;
+    font-style: italic;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ekko2{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, serif;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.tituloDasSkills{
+    padding-bottom: 50px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, serif;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.tituloDasSkills:hover{
+    color: #21b1a7;
+}
+
+li{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#topicoSkill{
+    transition: 0.5s;
+    cursor: default;
+}
+
+#topicoSkill:hover{
+    -webkit-scale: 1.1;
+    scale: 1.1;
+}
+
+.fotoSkill{
+    max-width: 80px;
+    min-width: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    border-radius: 10px;
+    border: 2px solid #60f7f3;
+}
+
+#skills{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, serif;
+}
+
+#descSkills{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, serif;
+    font-style: italic;
+}
+
+.nomeSkill{
+    padding-bottom: 10px;
+}
+
+.desc{
+    padding-left: 40px;
+    width: 800px;
+}
+
+footer{
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyright{
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+}
