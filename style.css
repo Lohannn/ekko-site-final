@@ -40,6 +40,12 @@ section{
     color: #fff;
 }
 
+#titulo{
+    padding-bottom: 50px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, serif;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -84,9 +90,6 @@ section{
 }
 
 .tituloDaDescricao{
-    padding-bottom: 50px;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, serif;
     transition: 0.5s;
     cursor: default;
 }
@@ -132,9 +135,6 @@ section{
 }
 
 .tituloDasSkills{
-    padding-bottom: 50px;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, serif;
     transition: 0.5s;
     cursor: default;
 }
@@ -151,13 +151,13 @@ li{
 }
 
 #topicoSkill{
-    transition: 0.5s;
+    transition: all 0.5s;
     cursor: default;
 }
 
 #topicoSkill:hover{
-    -webkit-scale: 1.1;
-    scale: 1.1;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .fotoSkill{
@@ -189,6 +189,40 @@ li{
 .desc{
     padding-left: 40px;
     width: 800px;
+}
+
+.ult{
+    padding-bottom: 30px;
+}
+
+.tituloDasSkins{
+    transition: 0.5s;
+    cursor: default;
+}
+
+.skins:hover .tituloDasSkins{
+    color: #00ffd5;
+    text-shadow: 0 0 0.5em #00f7ff;
+}
+
+.listaSkins{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#fotoSkin{
+    width: 220px;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: default;
+}
+
+#fotoSkin:hover{
+    -webkit-transform: scale(2.0);
+    transform: scale(2.0);
+    box-shadow: 0px 0px 0.1em 0.099em rgb(110, 233, 255);
 }
 
 footer{
