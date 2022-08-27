@@ -144,6 +144,71 @@ section{
     text-shadow: 0 0 0.5em #00f7ff;
 }
 
+.passivaVideo{
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 5;
+    top: -100px;
+    left: 890px;
+    box-shadow: 0px 0px 1em 0.099em rgb(110, 233, 255);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+ .primeiraVideo{
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 5;
+    top: -100px;
+    left: 890px;
+    box-shadow: 0px 0px 1em 0.099em rgb(110, 233, 255);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+ .segundaVideo{
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 5;
+    top: -100px;
+    left: 890px;
+    box-shadow: 0px 0px 1em 0.099em rgb(110, 233, 255);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.terceiraVideo{
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 5;
+    top: -100px;
+    left: 890px;
+    box-shadow: 0px 0px 1em 0.099em rgb(110, 233, 255);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.ultVideo{
+    width: 300px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 5;
+    top: -100px;
+    left: 890px;
+    box-shadow: 0px 0px 1em 0.099em rgb(110, 233, 255);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
 li{
     padding-bottom: 20px;
     display: flex;
@@ -158,6 +223,31 @@ li{
 #topicoSkill:hover{
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+#topicoSkill:hover .passivaVideo{
+    visibility: visible;
+    opacity: 1;
+}
+
+#topicoSkill:hover .primeiraVideo{
+    visibility: visible;
+    opacity: 1;
+}
+
+#topicoSkill:hover .segundaVideo{
+    visibility: visible;
+    opacity: 1;
+}
+
+#topicoSkill:hover .terceiraVideo{
+    visibility: visible;
+    opacity: 1;
+}
+
+#topicoSkill:hover .ultVideo{
+    visibility: visible;
+    opacity: 1;
 }
 
 .fotoSkill{
